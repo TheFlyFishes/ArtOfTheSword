@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b92f449d6d1acbf4bb74ffb5719a0abe
+timeCreated: 1456807958
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tileGrass: {fileID: 125580, guid: 3c588ed9d72f19c44b81c3c6c7f83f12, type: 2}
+  - tileWater: {fileID: 125580, guid: 3c588ed9d72f19c44b81c3c6c7f83f12, type: 2}
+  - tileLeftWall: {fileID: 197818, guid: 9493aba657e1a8443855dc05aff6aecd, type: 2}
+  - tileRightWall: {fileID: 127556, guid: 5a00b14f267a3ad4a8161bdab87b2382, type: 2}
+  - tileTopWall: {fileID: 185094, guid: c84263e97b7216941bcb9a63228284db, type: 2}
+  - tileBotWall: {fileID: 194362, guid: 7b0409fca821d76489e2095e6334e321, type: 2}
+  - playerChar: {fileID: 189226, guid: 54ea8c8734b5f8142b569245463053a3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

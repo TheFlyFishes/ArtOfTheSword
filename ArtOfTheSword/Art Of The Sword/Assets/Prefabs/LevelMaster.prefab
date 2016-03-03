@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &131372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400998}
+  - 114: {fileID: 11473782}
+  m_Layer: 0
+  m_Name: LevelMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11473782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649e2e16b25883849bdbd674dc72eb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnDelay: .5
+  zombie: {fileID: 106094, guid: fc7cdad9eff33b841a0a4e6c832e8858, type: 2}
+  vicMenu: {fileID: 0}
+  canSpawn: 0
+  isPlaying: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: waveCounter_text
+      value: 
+      objectReference: {fileID: 11478716, guid: 316df1978d1228745aa7f5d8cfa47294,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemiesLeftOnMap_text
+      value: 
+      objectReference: {fileID: 11492182, guid: 316df1978d1228745aa7f5d8cfa47294,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemiesInSwarm_text
+      value: 
+      objectReference: {fileID: 11489294, guid: 316df1978d1228745aa7f5d8cfa47294,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: goldDisplay
+      value: 
+      objectReference: {fileID: 11465566, guid: 4649bb807b444eb4496d63825d56d881,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: expDisplay
+      value: 
+      objectReference: {fileID: 11471042, guid: 4649bb807b444eb4496d63825d56d881,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: vicMenu
+      value: 
+      objectReference: {fileID: 175196, guid: a9d8ed6bc6cf28444ab44f8c03d50a05, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 131372}
+  m_IsPrefabParent: 1

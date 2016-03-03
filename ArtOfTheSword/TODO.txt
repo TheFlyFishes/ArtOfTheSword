@@ -1,0 +1,18 @@
+Things to do:
+
+	MISC:
+		finish enemy AI(just a basic one)
+		hook up the GUI_onMap level display
+	
+	SETUP:
+		enemy spawn system
+		difficulty rating
+		Golem enemy (animations/scripts)
+		Player animations
+		
+	CREATE:
+		skills (just a rough mock up)
+		shop outline/skeleton
+		GUI skin to be used in finished product
+		levelling algorithm (include PlayerPrefs values)
+		entry splash screen5
